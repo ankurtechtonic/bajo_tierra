@@ -1,0 +1,62 @@
+.wrapper {
+    padding: 2rem;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+.cross {
+    position: relative;
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    cursor: pointer;
+}
+
+.cross::before {
+    content: ' ';
+    width: 2px;
+    height: 100%;
+    background-color: #000;
+    top: -2px;
+    right: 99px;
+    position: absolute;
+    transform: rotate(134deg) translate(2.5px, -0.5px);
+    right: 8px;
+}
+
+.cross::after {
+    content: ' ';
+    width: 2px;
+    height: 100%;
+    background-color: #000;
+    top: -7px;
+    right: 19px;
+    position: absolute;
+    transform: rotate(225deg) translate(-9.5px, 0px);
+    right: 16px;
+}
+
+.thankyou {
+    text-align: center;
+}
+
+.thankyou h1 {
+    font-family: var(--secondary-font-extrabold);
+    color: #141414;
+}
+
+.thankyou p {
+    font-family: var(--secondary-font-rg);
+    font-weight: 700;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,136 @@
+.grid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 10rem; */
+}
+  
+.grid.right .content {
+    order: 2;
+    text-align: right !important;
+    padding-left: 5rem;
+    padding-right: 0;
+}
+
+.grid .content p {
+    text-align: left !important;
+    margin-bottom: 4rem !important;
+}
+
+.grid.right .content p {
+    text-align: right !important;
+}
+  
+.grid .content .serialNum {
+    color: #C6C6C6;
+    font-size: 1.5rem;
+    margin-bottom: 2rem !important;
+}
+
+.grid.right button {
+    margin-left: auto;
+}
+
+.descp {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+  
+.subTitle {
+    color: #000;
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.subTitle span {
+    color: #BCBCBC;
+    font-style: normal;
+    font-weight: 300;
+}
+  
+/* .grid button {
+    min-width: 160px;
+} */
+  
+.content {
+    width: 50%;
+    padding-right: 5rem;
+}
+  
+.imgWrapper {
+    width: 50%;
+    position: relative;
+}
+
+.imgWrapper::after {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #d7d7d7;
+    z-index: -1;
+}
+
+.grid.right .imgWrapper::after {
+    left: -20px; 
+}
+
+@media only screen and (max-width: 1480px){
+    .subTitle{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .imgWrapper {
+        width: 100%;
+    }
+
+    .grid {
+        flex-direction: column;
+    }
+
+    .grid .content .serialNum {
+        margin-bottom: .5rem !important;
+    }
+
+    .grid .content p {
+        margin-bottom: 2rem !important;
+    }
+
+    .subTitle {
+        font-size: 2rem;
+    }
+
+    .imgWrapper::after {
+        content: unset;
+    }
+
+    .imgWrapper button{
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+
+    .grid.right .content {
+        order: unset;
+        padding: 0;
+    }
+
+    .grid.right .content {
+        text-align: left !important;
+    }
+
+    .grid.right .content p {
+        text-align: left !important;
+    }
+}

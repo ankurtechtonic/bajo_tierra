@@ -1,0 +1,448 @@
+.leftArrow {
+    position: absolute;
+    z-index: 9999;
+    left: 10%;
+    border: 0;
+    top:33%;
+}
+
+.rightArrow {
+    position: absolute;
+    z-index: 9999;
+    right: 10%;
+    border: 0;
+    top: 33%
+}
+
+.rightArrow.corporateMainSlider,
+.leftArrow.corporateMainSlider {
+    z-index: 999 !important;
+}
+
+.bottom {
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(-50%)
+}
+
+.center {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 130%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.center button {
+    padding: .7rem;
+}
+
+.center button img {
+    width: 15px;
+}
+
+.videoSlider .leftArrow {
+    position: absolute;
+    top: 45%;
+    left: -10%;
+}
+
+.videoSlider .rightArrow {
+    position: absolute;
+    top: 45%;
+    right: -10%;
+}
+
+.colorPaletteBanner .center{
+    top: 55%;
+}
+
+.customDot button {
+    width: 6px;
+    height: 6px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.playIcon {
+    width: 8rem;
+}
+
+/* Dark Slider */
+.darkSlider {
+    background-color: #171717;
+    padding: 6rem 6rem 4rem;
+    margin-top: 3rem;
+}
+
+.darkSlider .item {
+    padding: 2.5rem 1rem;
+}
+
+.darkSlider .slideNum {
+    color: #484848;
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    z-index: 9999999;
+    font-size: 1.125rem;
+    font-style: italic;
+}
+
+.darkSlider .slideName {
+    color: #fff;
+    font-size: 1.25rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+    margin: 0;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.darkSlider .slideName span {
+    color: #BCBCBC;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.darkSliderArrows {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+
+.darkSliderArrows .arrow {
+    border: 1px solid #fff;
+    width: 50px;
+    padding: 10px 20px;
+    transition: .5s all ease;
+}
+
+.darkSliderArrows.similarProducts {
+    margin-top: 2rem;
+}
+
+.darkSliderArrows.similarProducts .arrow {
+    border: 1px solid #000;
+}
+
+.darkSliderArrows.similarProducts .arrow svg path {
+    fill: #000;
+}
+
+.darkSliderArrows .arrow svg,
+.darkSliderArrows .arrow span {
+    pointer-events: none;
+}
+
+/* Dark Slider */
+
+
+/* counterTopsSlider */
+.counterTopsSlider {
+    margin-top: 3rem;
+}
+
+.counterTopsSlider .bottom {
+    bottom: -90px;
+    width: 33%;
+}
+
+.counterTopsSlider .primaryButton {
+    margin: 2rem auto 0;
+}
+
+.blogSlider .item,
+.counterTopsSlider .item {
+    padding: 2rem 1rem;
+}
+
+.counterTopsSlider .slideNum {
+    color: #141414;
+    font-weight: 500;
+    position: absolute;
+    right: 1rem;
+    top: 0px;
+    z-index: 9999999;
+    font-size: 1.16rem;
+    font-style: italic;
+}
+
+.counterTopsSlider .slideName {
+    color: #141414;
+    font-size: 1.29rem;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    z-index: 9999;
+    margin: 0;
+    font-style: italic;
+}
+
+.counterTopsSlider .slideName span {
+    font-weight: 300;
+    font-style: normal;
+}
+/* counterTopsSlider */
+
+
+/* BT Promises */
+.btPromises .item {
+    padding: 0 4rem;
+}
+  
+.btPromises .title {
+    font-size: 13px;
+    font-family: var(--secondary-font-rg);
+    margin: 0;
+    margin-top: 2rem;
+}
+  
+.btPromises .title span {
+    font-weight: 600;
+}
+
+.btPromises .center {
+    width: 120%;
+}
+/* BT Promises */
+
+
+/* Testimonials */
+.testimonials {
+    margin-top: 10rem;
+}
+
+.testimonials .item {
+    padding: 0 10rem !important;
+}
+
+.testimonials h4 {
+    color: #BCBCBC;
+    font-size: 2rem;
+}
+
+.testimonials .title {
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin: 2rem 0;
+}
+
+.testimonials .footer {
+    font-family: var(--secondary-font-lt-sm);
+    font-size: 1rem;
+    color: #141414;
+    margin-top: 2rem;
+}
+
+.testimonials .footer span {
+    display: block;
+    font-weight: 600;
+}
+/* Testimonials */
+
+/* Similar Products */
+.similarProducts.darkSlider {
+    background-color: #fff;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding-top:2rem ;
+}
+
+.similarProducts.darkSlider .slideName {
+    color: #141414;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+/* Similar Products */
+
+
+@media only screen and (max-width:1368px) {
+    /* .center {
+        top: 39%;
+    } */
+
+    .colorPaletteBanner .center{
+        top: 58%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .colorPaletteBanner .center{
+        top: 61%;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .testimonials .item {
+        padding: 0 5rem !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .colorPaletteBanner .center{
+        top: 66%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .bottom {
+        width: 50%;
+    }
+
+    .videoSlider .leftArrow {
+        left: -7%;
+    }
+    
+    .videoSlider .rightArrow {
+        right: -7%;
+    }
+    
+}
+
+@media only screen and (max-width:600px) {
+
+    .videoSlider .leftArrow {
+        left: 4%;
+        top: 40%;
+    }
+    
+    .videoSlider .rightArrow {
+        right: 4%;
+        top: 40%;
+    }
+
+    .testimonials {
+        margin-top: 5rem;
+    }
+
+
+    .center,
+    .btPromises .center {
+        width: 100%;
+    }
+
+    .slider3 .center {
+        width: 100%;
+    }
+
+    .btPromises .center{
+        width: 94%;
+    }
+
+    .colorPaletteBanner .center{
+        top:52%;
+    }
+
+    .darkSlider {
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+
+    .darkSlider .item {
+        padding: 2rem .3rem;
+    }
+
+    .darkSlider .slideNum {
+        font-size: 1rem;
+    }
+
+    .darkSlider .slideName {
+        font-size: 1rem;
+    }
+
+    .darkSliderArrows {
+        margin:40px auto 10px !important;
+        width: 90px;
+    }
+
+    .bottom {
+        width: 70%;
+        bottom: -70px;
+    }
+
+    .counterTopsSlider .bottom{
+        bottom:initial;
+        width: 90%;
+        left: 49%;
+    }
+    
+    .custom-arrow-left,
+    .custom-arrow-right {
+        padding: .5rem;
+    }
+
+    .playIcon {
+        width: 4rem;
+    }
+
+    .similarProducts.darkSlider .slideName {
+        font-size: 1rem;
+    }
+
+    .btPromises .item {
+        padding: 0 2rem;
+    }
+
+    .testimonials .item {
+        padding: 0 15px !important;
+    }
+
+    .testimonials h4 {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .testimonials .title {
+        font-size: 1.5rem;
+        text-align: left;
+        margin: 1rem 0;
+    }
+
+    .testimonials p {
+        margin-bottom: 0;
+    }
+
+    .testimonials .footer {
+        font-size: .7rem;
+        text-align: left;
+        margin-top: 1rem;
+    }
+
+    .darkSliderArrows .arrow {
+        width: 35px;
+        padding: 5px 12px;
+    }
+
+    .counterTopsSlider .primaryButton {
+        margin: 0 15px 0 auto;
+    }
+
+    .blogSlider.leftArrow,
+    .blogSlider.rightArrow {
+        top: 28% !important;
+    }
+
+    .blogSlider.leftArrow img,
+    .blogSlider.rightArrow img {
+        width: 15px;
+    }
+
+}

@@ -1,0 +1,52 @@
+.wrapper {
+    text-align: center;
+}
+
+.wrapper h2 {
+    color: #BCBCBC;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; 
+}
+
+.wrapper h5 {
+    color: #141414;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--secondary-font-lt-sm);
+    margin-bottom: 0;
+}
+
+.wrapper p {
+    color: #141414;
+    font-size: 1rem;
+    font-family: var(--secondary-font-rg);
+}
+
+
+@media only screen and (max-width:992px) {
+    .wrapper h2 {
+        font-size: 4rem;
+    }
+
+    .wrapper h5 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .wrapper h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .wrapper h2 {
+        font-size: 2rem;
+    }
+
+    .wrapper h5,
+    .wrapper p {
+        font-size: 1rem;
+    }
+}

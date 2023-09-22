@@ -1,0 +1,305 @@
+.sliderWrapper {
+  width: 100%;
+}
+
+.leftArrow {
+  position: absolute;
+  z-index: 9999;
+  left: 10%;
+  border: 0;
+}
+
+.rightArrow {
+  position: absolute;
+  z-index: 9999;
+  right: 10%;
+  border: 0;
+}
+
+/* .gridSection {
+  padding: 50px 0;
+} */
+
+.sectionTitle {
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 16px;
+  text-align: center;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 10rem; */
+}
+
+.grid.right .content {
+  order: 2;
+  text-align: right;
+  padding-left: 3rem;
+}
+
+.serialNum {
+  color: #959595;
+  font-size: 1.5rem;
+}
+
+.subTitle {
+  color: #000;
+  font-size: 2rem;
+}
+
+.subTitle span {
+  color: #959595;
+}
+
+
+/* .title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 200;
+  line-height: 1.1;
+}
+
+.title span {
+  font-weight: 300;
+  display: block;
+} */
+
+/* .title3 {
+  font-size: 44px;
+  font-weight: 300;
+  margin: 0 auto;
+  line-height: 1.1;
+}
+
+.title3 span{
+  font-weight: 500;
+  display: block;
+} */
+
+.brandImgWrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.brandImgWrapper .img {
+  max-width: 33%;
+  padding: 0 10%;
+  margin: 2rem 0;
+}
+
+.slider3 {
+  margin-top: 5rem;
+}
+
+.slider3Items {
+  padding: 0 4rem;
+}
+
+.slider3Items .title {
+  font-size: 13px;
+  font-family: var(--secondary-font-rg);
+  margin: 0;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.slider3Items .title span {
+  font-weight: 400;
+}
+
+.preTitle {
+  font-family: var(--secondary-font-lt-sm);
+  font-weight: 600;
+  font-size: .8rem;
+  text-align: center;
+  color: #6E6E6E;
+  letter-spacing: 5px;
+}
+
+.emailWrapper {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.emailWrapper button:hover,
+.emailWrapper button.active:hover {
+  background-color: #bcbcbb;
+  border-color:#bcbcbb ;
+}
+
+
+
+.emailWrapper button.active {
+  background-color: #141414;
+  border-color: #141414;
+  border-left: 0px;
+}
+
+.emailWrapper button {
+  position: absolute;
+  height: 100%;
+  background-color: #141414;
+  width: 50px;
+  padding: 12px 15px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  border: 1px solid #bcbcbc;
+  cursor: pointer;
+}
+
+.emailWrapper input {
+  width: 100%;
+  padding: 15px;
+  padding-right: 20px;
+  border: 1px solid #bcbcbb !important;
+}
+
+.emailWrapper input:focus {
+  border-color:#141414 !important;
+}
+
+.emailWrapper input::placeholder {
+  font-size: .8rem;
+}
+
+.onBanner {
+  position: absolute;
+  bottom: 20%;
+  transform: translateX(-50%);
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  z-index: 3;
+  cursor: default;
+}
+
+.onBanner h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.onBanner h2 span {
+  font-weight: 900;
+  display: block;
+}
+
+.onBanner p {
+  font-family: var(--secondary-font-rg);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.onBanner button {
+  background-color: #fff;
+  color: #000;
+  padding: .8rem 1.5rem;
+  border: none;
+  font-size: .7rem;
+}
+
+.onBanner button:hover {
+  background-color: #f0eff9;
+}
+
+.onBanner button span:first-child {
+  margin-right: 15px;
+}
+
+.onBanner button span:last-child {
+  margin-left: 15px;
+}
+
+
+
+@media only screen and (max-width:1480px) {
+  .onBanner h2 {
+    font-size: 2.5rem;
+  }
+
+  .onBanner p {
+    font-size: 1rem;
+  }
+}
+
+
+
+@media only screen and (max-width:1290px) {
+  .onBanner {
+    bottom: 25%;
+  }
+
+  .onBanner h2 {
+    font-size: 2.2rem;
+  }
+
+  .onBanner p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .slider3Items {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .sectionTitle {
+    text-align: left;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    position: relative;
+  }
+
+  /* .sectionTitle::after {
+    content: ' ';
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: calc(100% - 300px);
+    height: 1px;
+    background-color: #bcbcbc;
+  } */
+
+  .brandImgWrapper .img {
+    max-width: 50%;
+  }
+
+  .onBanner {
+    width: 80%;
+    bottom:12%
+  }
+
+  .onBanner h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+
+  .onBanner p {
+    font-size: 1.2rem;
+  }
+
+  .slider3Items {
+    padding: 0 2rem;
+  }
+
+  .brandImgWrapper {
+    margin-top: 3rem;
+  }
+}

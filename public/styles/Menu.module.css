@@ -1,0 +1,327 @@
+.wrapper {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background: #fff;
+}
+
+.left {
+    width: 30%;
+    background-image: url("https://res.cloudinary.com/bajo-tierra/image/upload/v1629496186/Miguel-castillo_ljyrbn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    width: 60%;
+    padding: 2rem 0;
+}
+
+.menuArrow {
+    width: 15px;
+}
+
+.listWrapper {
+    width: 80%;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listWrapper .list {
+    width: 35%;
+}
+
+.listWrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.listWrapper li {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.subMenuToggler {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subMenuToggler.show {
+    font-style: italic;
+}
+
+.subMenuToggler img {
+    /* margin-left: 6rem; */
+    transform: rotate(90deg);
+    transition: .5s all ease;
+
+}
+
+.subMenuToggler.show img {
+    transform: rotate(270deg);
+}
+
+.subMenu {
+    margin: 1rem 0 !important;
+}
+
+.subMenu .title {
+    font-family: var(--secondary-font-rg);
+    font-size: 1.3rem;
+    /* text-decoration: underline; */
+    line-height: 1;
+    border-bottom: 1px solid #bcbcbc;
+    display: inline-block;
+    width: auto
+}
+
+.subMenu .title:hover {
+    color: unset;
+}
+
+.subMenu li {
+    font-size: 2rem;
+}
+
+.subMenu li:hover {
+    color: #bcbcbc;
+}
+
+.customLink {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6px;
+    font-size: 1.5rem;
+    width: 270px;
+    font-family: var(--secondary-font-rg);
+    margin-top: 3rem;
+    cursor: pointer;
+    font-weight: 400;
+    align-items: center;
+}
+
+/* .customLink a {
+    transition: .5s all ease;
+} */
+
+.customLink a {
+    line-height: 1;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.customLink:hover img {
+    border: 1px solid #141414;
+}
+
+.customLink img {
+    width: 40px;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: .5s all ease;
+}
+
+.icons {
+    margin-top: 2.5rem;
+    padding-left: .5rem;
+}
+
+.icons a {
+    display: inline;
+    width: 25px;
+}
+
+.icons legend {
+    font-size: 1.5rem;
+    font-family: var(--secondary-font-lt-sm);;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.icons img {
+    filter: invert(0);
+    cursor: pointer;
+}
+
+.icons img:hover {
+    filter: invert(1);
+}
+
+.icons a:nth-child(2) {
+    margin: 0 30px;
+}
+
+
+@media only screen and (max-width:1440px) {
+ 
+    .listWrapper {
+        width: 80%;
+    }
+    
+    .listWrapper .list {
+        width: 40%;
+    }
+    
+    .listWrapper li {
+        font-size: 2rem;
+    }
+    
+    .subMenu li {
+        font-size: 1.5rem;
+    }
+    
+    .subMenuToggler img {
+        margin-left: 4rem;
+    }
+    
+}
+
+@media only screen and (max-width:1290px) {
+    
+    .listWrapper {
+        width: 95%;
+    }
+
+    .listWrapper .list {
+        width: 45%;
+    }
+
+    .left {
+        width: 35%;
+    }
+    
+    .right {
+        width:55%
+    }
+
+    .subMenuToggler img {
+        margin-left: 3rem;
+    }
+    
+}
+
+@media only screen and (max-width:940px) {
+    .listWrapper {
+        width: 90%;
+    }
+
+    .listWrapper li {
+        font-size: 1.5rem;
+    }
+
+    .subMenu li {
+        font-size: 1rem;
+    }
+
+    .subMenuToggler img {
+        margin-left: 2rem;
+    }
+
+    .customLink {
+        width: 225px;
+        align-items: center;
+    }
+
+    .customLink img {
+        width: 25px;
+    }
+
+    .icons legend {
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    .left {
+        display: none;
+    }
+
+    .listWrapper .list {
+        width: 100%;
+    }
+
+    .right {
+        width: 90%;
+        margin: 0 auto;
+        /* padding: 20px 0px 13rem; */
+        padding: 20px 0px;
+    }
+
+    .customLink {
+        margin-top: 3rem !important;
+        padding-left: 0;
+    }
+
+    .icons {
+        padding-left: 0
+    }
+
+    .listWrapper {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0;
+        padding: 3rem 0 3rem;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        justify-content: flex-start;
+    }
+
+    .listWrapper li {
+        font-size: 2.3rem;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+
+    .menuArrow {
+        width: 13px;
+    }
+
+    .subMenu li {
+        font-size: 1.5rem;
+    }
+
+    /* .actionWidget {
+        position: fixed;
+        bottom: 5%;
+        z-index: 92;
+        background-color: #fff;
+    } */
+
+    .customLink {
+        font-size: 1rem;
+        width: 175px;
+        margin-top: 0;
+    }
+
+    .customLink img {
+        width: 38px;
+    }
+
+    .icons legend {
+        font-size: 1rem;
+    }
+    .icons img {
+        width: 20px;
+    }
+
+    .icons img:nth-child(2) {
+        margin:0 1.5rem;
+    }
+
+    .subMenu .title {
+        font-size: 1.1rem;
+        margin-bottom: 1.3rem;
+    }
+}

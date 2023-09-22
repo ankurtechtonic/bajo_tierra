@@ -1,0 +1,1044 @@
+.wrapper h6 {
+    font-size: 1.5rem;
+    color: #141414;
+    font-weight: 300;
+}
+
+.wrapper h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-style: italic;
+}
+
+.wrapper h3 span {
+    color: #BCBCBC;
+    font-weight: 300;
+    display: block;
+    font-style: normal;
+}
+
+.wrapper button {
+    min-width: auto;
+    padding: .7rem 1rem;
+    font-size: 0.6rem;
+}
+
+.wrapper button img {
+    right: 10px;
+    top: 12px;
+    width: 10px;
+}
+
+.blogCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+.blogCard .img {
+    width: 50%;
+}
+
+.blogCard .content {
+    width: 45%;
+}
+
+.blogCard h2 {
+    font-family:var(--secondary-font-lt-sm);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.blogCard p {
+    font-family: var(--secondary-font-rg);
+    font-size: .8rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.blogCard button {
+    padding: 0.5rem;
+    font-size: .6rem;
+    letter-spacing: 2px;
+    color: #bcbcbc;
+    border-color: #bcbcbc;
+}
+
+.blogPostCard h3 {
+    color: #141414;
+    font-size: 1.5rem;
+}
+
+.blogPostCard div {
+    margin-bottom: 1rem;
+}
+
+.blogPostCard span {
+    color: #BCBCBC;
+    font-size: 1.5rem;
+}
+
+.blogSliderCard .middle,
+.blogSliderCard .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.blogSliderCard .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.blogSliderCard h2 {
+    color: #141414;
+    letter-spacing: 10px;
+}
+
+.blogSliderCard h2 span {
+    color: #BCBCBC;
+}
+
+.blogSliderCard .arrow {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.blogSliderCard .btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.exhibition h6 {
+    font-weight: 900 !important;
+    font-size: 2.25rem !important;
+}
+
+.exhibition .header{
+    margin-bottom: 1rem;
+}
+
+.exhibition .middle{
+    margin-top: 1rem;
+}
+
+.exhibition .middle h6{
+    font-family: var(--secondary-font-extrabold);
+}
+
+.exhibition .footer {
+    align-items: center;
+}
+
+.exhibition .footer p {
+    width: 30%;
+}
+
+.prevExhibitionImg{
+    margin-bottom: 4rem;
+}
+
+.blogSliderCard h6 {
+    width: 60%;
+    font-family:var(--secondary-font-lt-sm);
+    font-size: 1rem;
+    font-weight: 600;
+    color: #141414;
+    margin-bottom: 1.2rem;
+}
+
+.middle .right {
+    width: auto;
+    text-align: right;
+    font-family: var(--secondary-font-rg);
+    font-size: 1rem;
+    color: #838383;
+}
+
+.middle .right.rightHighlighted{
+    color: #141414;
+}
+
+.middle .right label {
+    color: #141414;
+    font-weight: 600;
+}
+
+.blogSliderCard  p {
+    width: 60%;
+    font-family: var(--secondary-font-lt-sm);
+    font-size: .9rem;
+    font-weight: 300;
+    color: #000;
+}
+
+.footer span {
+    width: 30%;
+    text-align: right;
+    font-family: var(--secondary-font-rg);
+    font-size: .8rem;
+    color: #292929;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.blogPostCard2 .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5.5rem;
+    margin-bottom: 3rem;
+}
+
+.blogPostCard2 span {
+    color: #969696;
+    position: absolute;
+    font-size: 8rem;
+    opacity: 0.2;
+    left: 0;
+    top: -150%;
+}
+
+.blogPostCard2 h3 {
+    font-size: 2.5rem;
+    color: #141414;
+    margin: 0;
+}
+
+.blogPostCard2 label {
+    display: inline-block;
+    color: #999999;
+}
+
+.blogPostCard2 h6 {
+    font-size: 1.8rem;
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.blogPostCard3 h3 {
+    font-family: var(--secondary-font-rg);
+    font-weight: 700;
+    width: 30%;
+    font-size: 1.25rem;
+    margin: 0;
+    color: #141414;
+}
+
+.blogPostCard3 span {
+    color: #BCBCBC;
+    font-family: var(--secondary-font-lt-sm);
+    font-weight: 600;
+    font-size: 1.125rem;
+    border-bottom: 2px solid #BCBCBC;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.simpleCard2 h6 {
+    font-size: 3rem;
+    color: #141414;
+    margin-bottom: 2rem;
+}
+
+.simpleCard2 h6 span:first-child {
+    font-weight: 200;
+}
+
+.simpleCard2 h6 span:last-child {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.simpleCard2 .inSlider {
+    margin-bottom: 3rem;
+}
+
+.simpleCard3 {
+    font-family: var(--secondary-font-rg);
+    width: 92%;
+    margin: 0 auto;
+}
+
+.simpleCard3 .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem !important;
+    color: #141414;
+}
+
+.simpleCard3 h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.simpleCard3 p {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.simpleCard3 button {
+    /* width: 120px; */
+    min-width: auto;
+    font-size: .875rem;
+    padding: 1.2rem 1rem;
+    color: #141414
+}
+
+.simpleCard3.fromWhyD img {
+    width: 81px !important;
+}
+
+.fromWhyD {
+    text-align: left;
+}
+
+.fromWhyD h3 {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.fromWhyD h6 {
+    color: #D5D5D5;
+    font-family: var(--primary-font);
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.fromWhyD p {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.simpleCard4 h2 {
+    color: #141414;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+.simpleCard4 h2 span {
+    color: #bcbcbc;
+    margin-right: 2rem;
+}
+
+/* .fromWhyD h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.fromWhyD p {
+    font-size: 1.1rem;
+    margin-bottom: 0rem;
+    line-height: 1.2;
+} */
+
+
+/* Grid Card 2 */
+.gridCard2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gridCard2 .left {
+    width: 40%;
+    text-align: left;
+    padding-top: 3rem;
+}
+
+.gridCard2 .right {
+    width: 40%;
+}
+
+.gridCard2 label {
+    color: #BCBCBC;
+    text-transform: uppercase;
+    font-family: var(--secondary-font-rg);
+    font-size: 0.875rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.gridCard2 h1 {
+    font-size: 5.375rem;
+    color: #141414;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.gridCard2 h1 span:last-child {
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 4rem;
+
+}
+
+.gridCard2 h4 {
+    font-family: var(--secondary-font-lt-sm);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: .6rem;
+}
+
+.gridCard2 p {
+    text-align: left;
+}
+/* Grid Card 2 */
+
+
+/* Grid Card3 */
+.gridCard3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gridCard3 .content {
+    width: 40%;
+    padding-right: 5rem;
+}
+  
+.gridCard3 .imgWrapper {
+    width: 45%;
+    position: relative;
+}
+  
+.gridCard3.right .content {
+    order: 2;
+    padding-left: 5rem;
+    padding-right: 0;
+}
+
+.gridCard3 .text {
+    width: 70%;
+    margin-bottom: 4rem !important;
+    color: #BCBCBC;
+    font-size: 1rem;
+    font-family: var(--secondary-font-lt-sm);
+    font-weight: 300;
+}
+
+  
+.gridCard3 .content .serialNum {
+    font-size: 2.3rem;
+    margin-bottom: 2rem !important;
+}
+
+.gridCard3 .descp {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+  
+.gridCard3 .title {
+    color: #000;
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--secondary-font-lt-sm);
+    font-weight: 600;
+    border-bottom: 1px solid #bcbcbc;
+    padding-bottom: 1.5rem;
+    width: 80%;
+}
+  
+.gridCard3 .grid button {
+    width: 180px;
+}
+
+
+/* .gridCard3 .imgWrapper::after {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #EBEBEB;
+    z-index: -1;
+}
+
+.gridCard3.right .imgWrapper::after {
+    left: -20px;
+} */
+/* Grid Card3 */
+
+
+/* Job Card */
+.jobCard {
+    border: 1px solid #636363;
+    margin-bottom: 2rem;
+}
+
+.jobCard .header,
+.jobCard .body,
+.jobCard .footer {
+    padding: 1rem;
+}
+
+.jobCard .header {
+    font-weight: 300;
+    border-bottom: 1px solid #636363;
+    margin: 0;
+    text-transform: uppercase;
+    height: 160px;
+}
+
+.jobCard h2 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.jobCard .body {
+    font-family: var(--secondary-font-rg);
+    font-weight: 400;
+    height: 110px;
+}
+
+.jobCard li {
+    margin-bottom: 2px;
+}
+
+.jobCard .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobCard button {
+    padding: 0.8rem ;
+    color: #141414;
+    border: 2px solid #141414
+}
+
+.jobCard button img {
+    width: 10px;
+    right: 10px;
+}
+
+.jobCard .footer p {    
+    margin: 0;
+    color: #BCBCBC;
+    font-family: var(--secondary-font-lt-sm);
+    font-weight: 600;
+}
+
+.jobCard .footer span {
+    font-weight: 300;
+    text-transform: none;
+}
+/* Job Card */
+
+
+/* Country Card */
+.countryCard .divider {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.countryCard .divider::after {
+    content: ' ';
+    position: absolute;
+    left: 0%;
+    top: 12px;
+    width: 100%;
+    height: 2px;
+    background-color: #EBEBEB;
+    z-index: -1;
+}
+
+.countryCard .divider p {
+    font-size: 1.875rem;
+    line-height: 1;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 auto;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0 2rem;
+}
+
+.countryCard .des {
+    font-family: var(--secondary-font-rg);
+    text-align: center;
+    font-weight: 300;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.countryCard .des span {
+    font-family: var(--secondary-font-lt-sm);
+    font-weight: 600;
+}
+
+.countryCard .footer {
+    display: flex;
+    width: 430px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.countryCard .list {
+    width: 45%;
+    text-align: left;
+    color: #141414;
+}
+
+.countryCard .list p,
+.countryCard .list li {
+    font-family: var(--secondary-font-lt-sm);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.countryCard .footer .divider {
+    width: 2px;
+    height: 100%;
+    background-color: #EBEBEB;
+}
+
+.countryCard h5 {
+    color: #BCBCBC;
+    font-family: var(--secondary-font-rg);
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.countryCard .list h5 {
+    font-size: 1rem;
+}
+
+.countryCard button {
+    width: auto;
+    padding: 1rem 2rem;
+    font-family: var(--secondary-font-rg);
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: #292929;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3rem;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    /* border-bottom: 1px solid #141414; */
+    text-decoration: underline;
+    min-width: auto;
+}
+
+.countryCard button:hover{
+    color: #484848;
+}
+
+.countryCard button img {
+    right: -25px;
+    top: 6px;
+    width: 9px;
+    margin-left: 15px;
+}
+
+
+@media only screen and (max-width:1440px) {
+    
+
+}
+
+
+@media only screen and (max-width:1200px) {
+    .jobCard .header h2 {
+        font-size: 1.8rem;
+    }
+
+    .jobCard .body li {
+        font-size: .9rem;
+    }
+
+    .jobCard button {
+        width: auto;
+        padding: .5rem;
+    }
+
+    .jobCard button span:first-child {
+        margin-right: 10px;
+    }
+
+    .jobCard button span:last-child {
+        margin-left: 10px;
+    }
+
+    .jobCard .footer p {
+        font-size: .8rem;
+    }
+
+    .jobCard .footer span {
+        font-size: .7rem;
+    }
+
+    .gridCard2 h1 {
+        font-size: 4rem;
+    }
+
+    .gridCard3.right .content {
+        padding-left: 3rem;
+    }
+
+    .gridCard3 .content {
+        padding-right: 3rem;
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+
+    .gridCard2 h1 {
+        font-size: 4rem;
+    }
+
+    .gridCard2 h1 span:last-child {
+        margin-bottom: 1rem;
+    }
+
+    .gridCard2 .left label {
+        margin-bottom: 1rem;
+    }
+
+    .blogPostCard3 h3 {
+        width: 30%;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+ 
+    .gridCard2 {
+        flex-direction: column;
+    }
+
+    .gridCard2 .left {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .gridCard2 .right {
+        width: 100%;
+    }
+
+    /* .gridCard2 h1 {
+        font-size: 3rem;
+    } */
+
+    .gridCard2 h1 span:last-child {
+        margin-bottom: 1rem;
+    }
+
+    .gridCard2 .left label {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .gridCard2 h1 {
+        font-size: 3rem;
+    }
+
+    .blogPostCard.CSR h3 {
+        text-align: left;
+    }
+
+    .jobCard .header,
+    .jobCard .body {
+        height: auto;
+    }
+
+    .jobcard .gridCard2 .left label{
+        margin-bottom: 4.5rem;
+    }
+
+    .jobcard .gridCard2 .left h1, .whyBTcard .gridCard2 .left h1 {
+        position: absolute;
+        top: 9rem;
+    }
+
+    .whyBTcard .gridCard2 .left h1{
+        top: 6rem;
+    }
+
+    .jobcard .gridCard2 .right, .whyBTcard .gridCard2 .right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .whyBTcard .gridCard2 .right{
+        position: relative;
+        top: 3rem;
+    }
+
+    .jobcard .gridCard2 .right img, .whyBTcard .gridCard2 .right img {
+        width: 80%;
+        position: relative;
+        z-index: -1;
+    }
+
+    .blogPostCard3 h3 {
+        font-size: 1rem;
+    }
+
+    .blogPostCard3 span {
+        font-size: 1rem;
+    }
+
+    .blogCard button {
+        padding: 0.3rem;
+        font-size: .5rem;
+    }
+
+    .simpleCard3 h3 {
+        font-size: 1.2rem;
+    }
+
+    .simpleCard3 p {
+        font-size: 1rem;
+    }
+
+    .simpleCard3 button {
+        border: 1px solid #000;
+        padding: .9rem;
+    }
+
+    .simpleCard2 h6 {
+        text-align: left;
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .simpleCard2 h6 span {
+        display: block;
+    }
+
+    .blogPostCard h3 {
+        order: 2;
+        font-size: 1.3rem;
+    }
+    
+    .blogPostCard span {
+        order: 1;
+        width: 100%;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    .blogSliderCard h2 {
+        font-size: 1rem;
+        letter-spacing: 8px;
+    }
+
+    .blogSliderCard h6{
+        font-size: 0.9rem;
+        width:60%;
+    }
+
+    .middle .right{
+        font-size: 0.9rem;
+    }
+
+    .exhibition h6 {
+        font-size: 1.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .exhibition .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .exhibition .footer .btn {
+        width: 50%;
+    }
+
+    .exhibition .footer p {
+        width: 100%;
+    }
+
+    .exhibition .footer .right {
+        width: 50%;
+        color: #838383;
+    }
+
+    .exhibition .footer .right span {
+        width: 100%;
+        text-align: left;
+        font-weight: 400;
+    }
+
+    .exhibition .footer .right label {
+        color: #141414;
+    }
+
+    .prevExhibitionImg{
+        margin-bottom: 3rem;
+    }
+
+    .countryCard {
+        margin-bottom: 7rem;
+    }
+  
+    .countryCard h5 {
+        font-size: .9rem;
+    }
+
+    .countryCard .divider::after {
+        content: unset;
+    }
+    
+    .countryCard .divider p {
+        font-size: 1.5rem;
+        letter-spacing: 12px;
+        text-align: left;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .countryCard .des {
+        width: 100%;
+        font-size: .9rem;
+        text-align: left;
+    }
+
+    .countryCard .footer {
+        width: 80%;
+    }
+
+    .countryCard .footer .list {
+        text-align: left;
+        word-break: break-all;
+    }
+
+    .countryCard .list p,
+    .countryCard .list li {
+        font-size: .8rem;
+    }
+
+    .countryCard button {
+        font-size: .8rem;
+        margin-top: 2rem;
+    }
+
+    .blogPostCard2 {
+        margin-top: 5rem;
+    }
+
+    .blogPostCard2 span {
+        font-size: 7rem;
+        top: -170%;
+        left: 10px;
+    }
+
+    .blogPostCard2 h3 {
+        font-size: 2rem;
+    }
+
+    .blogPostCard2 h6 {
+        margin-top: 2rem;
+        text-align: left;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .blogPostCard2 label {
+        text-align: right;
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .simpleCard4 h2 {
+        font-size: 1.2rem;
+        width: 65%;
+    }
+
+    .simpleCard4 h2 span {
+        margin-right: 0.5rem;
+    }
+
+    .simpleCard3.fromWhyD img {
+        width: 80px !important;
+    }
+
+    .simpleCard3.fromWhyD h6 {
+        margin-bottom: 1rem;
+    }
+
+    .simpleCard3.fromWhyD .content {
+        margin-top: 0 !important;
+    }
+
+    .gridCard3 .title {
+        font-size: 1rem;
+        padding-bottom: .5rem;
+        margin-bottom: .8rem;
+        width: 100%;
+    }
+
+    .gridCard3 .imgWrapper {
+        width: 50%;
+    }
+
+    .gridCard3.right .content {
+        padding-left: 0rem;
+        width: 45%;
+        text-align: right;
+    }
+
+    .gridCard3.right button {
+        margin-left:auto ;
+    }
+
+    .gridCard3 .content {
+        padding-right: 0em;
+    }
+
+    .gridCard3 .content .serialNum {
+        font-size: 1rem;
+        margin-bottom: 0 !important;
+    }
+
+    .gridCard3 .text {
+        margin-bottom: 1rem !important;
+        font-size: .8rem;
+        width:100%
+    }
+
+    .wrapper h6 {
+        position: absolute;
+        left: 15px;
+    }
+
+    .blogSliderCard .middle {
+        margin-top: 2rem ;
+    }
+}

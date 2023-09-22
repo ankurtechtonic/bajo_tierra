@@ -1,0 +1,79 @@
+.animation1_5s {
+    animation: slideFromLeft 1.5s;
+}
+
+.animation1_8s {
+    animation: slideFromLeft 1.8s !important;
+}
+
+.animation2_2s {
+    animation: slideFromLeft 2.2s !important;
+}
+
+.animation2_5s {
+    animation: slideFromLeft 2.5s !important;
+}
+
+.animation2_7s {
+    animation: slideFromLeft 2.7s !important;
+}
+
+.zoomIn {
+    animation: zoomIn 1s;
+    animation-delay: .5s;
+}
+
+.custom-arrow-left,
+.custom-arrow-right {
+    transition: .5s all ease;
+    border: 1px solid transparent;
+    padding: 1rem;
+    outline: none;
+}
+
+.custom-arrow-left img,
+.custom-arrow-right img {
+    pointer-events: none;
+}
+
+
+.custom-arrow-left:hover,
+.custom-arrow-right:hover {
+    border: 1px solid #000;
+}
+
+/* .react-multi-carousel-item--active {
+    animation: zoomEffect .8s;
+    animation-delay: .5s;
+} */
+
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-250%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomEffect {
+    0% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

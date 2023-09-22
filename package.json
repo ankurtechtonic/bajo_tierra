@@ -1,0 +1,31 @@
+{
+  "name": "bajo-tierra",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "classnames": "^2.3.1",
+    "jquery": "^3.6.0",
+    "next": "10.2.3",
+    "next-images": "^1.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-id-swiper": "^3.0.0",
+    "react-image-gallery": "^1.2.7",
+    "react-multi-carousel": "^2.6.2",
+    "react-player": "^2.9.0",
+    "reactstrap": "^8.9.0",
+    "swiper": "^5.4.5"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^3.9.1"
+  }
+}
